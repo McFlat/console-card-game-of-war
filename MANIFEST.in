@@ -1,0 +1,7 @@
+include README.md
+include tox.ini
+include VERSION
+recursive-include bin *.sh
+recursive-include docs/python *
+recursive-include src/python *.py
+recursive-include test/python *.py
